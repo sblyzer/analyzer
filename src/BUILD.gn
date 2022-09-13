@@ -1,0 +1,7 @@
+config("default_config") {
+  include_dirs = ["//"]
+}
+
+config("sblyzer_application_config") {
+  include_dirs = ["//"]
+}

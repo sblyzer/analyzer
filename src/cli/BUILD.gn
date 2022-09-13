@@ -1,0 +1,7 @@
+import("../src_sources.gni")
+import("cli_sources.gni")
+
+executable("sblyzer_cli") {
+  configs = ["../:sblyzer_application_config"]
+  sources = rebase_path(src_sources, ".", "./../") + cli_sources
+}

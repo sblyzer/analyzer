@@ -1,0 +1,4 @@
+cli_sources = [
+  "main.cc",
+  "main_options.cc"
+]

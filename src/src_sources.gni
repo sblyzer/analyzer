@@ -1,0 +1,6 @@
+src_sources = [
+  "base.cc",
+  "log.cc",
+  "options.cc",
+  "platform.cc"
+]

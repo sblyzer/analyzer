@@ -1,0 +1,3 @@
+group("sblyzer_cli") {
+  deps = ["//src/cli:sblyzer_cli"]
+}

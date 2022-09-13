@@ -1,0 +1,10 @@
+if (host_os == "win") {
+  set_default_toolchain("//build/toolchain/win:x86")
+  defines = ["OS_WIN"]
+} else if (host_os == "mac") {
+  set_default_toolchain("//build/toolchain/mac:x86")
+  defines = ["OS_MAX"]
+} else if (host_os == "linux") {
+  set_default_toolchain("//build/toolchain/linux:x86")
+  defines = ["OS_LINUX"]
+}
