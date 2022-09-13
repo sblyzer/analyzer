@@ -4,7 +4,6 @@ import sys
 import time
 
 def Main(argv):
-  start_time = time.time
   print('Build started.')
 
   subprocess.Popen('gn gen ./build').wait()
